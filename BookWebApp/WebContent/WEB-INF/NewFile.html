@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>welcome Voters</h1>
+<label>VoterName</label>
+<input type="text" id="voterName"  required><br>
+<label>VoterAge</label>
+<input type="text" id="voterAge"  required><br>
+<label>Gender</label>
+<select id="gender"> 
+<option>male</option>
+<option>female</option>
+</select><br>
+<input type="submit" value="vote" onclick="voter()">
+</body>
+<script>
+function voter(){
+	 name=document.getElementById("voterName");
+	 alert(name);
+	 perfectName=/^[a-z]*$/;
+	if(name.match(y)==null){
+		alert("enter correct name");
+	}
+	 age=parseInt(document.getElementById("voterName"));
+	 perfectage=/^[0-9]*$/;
+	if(name.match(y)==null){
+		alert("enter correct age");
+	}
+	 Gender=document.getElementById("gender");
+	 if(Gender.equals("male")&&age>21){
+		 alert("voted")
+	 }
+	 else if(Gender.equals("female")&&age>18){
+		 alert("voted")
+	 }
+	 else{
+		 alert("not eligible");
+	 }
+	 
+}
+</script>
+
+
+
+
+</html>
