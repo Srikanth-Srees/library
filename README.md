@@ -1,4 +1,4 @@
- The Bookstore Management System is a tailored web application designed for a local 
+ The Library Management System is a tailored web application designed for a local 
 bookstore, focusing on efficient book and author management.  
 The Bookstore Management System for a local bookstore provides a user-friendly interface 
 for staff members to efficiently manage the inventory, ensuring a seamless experience in 
